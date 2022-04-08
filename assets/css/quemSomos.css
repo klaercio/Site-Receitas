@@ -62,3 +62,13 @@
 .pessoa__imagem--andreia {
     background-image: url(../img/pessoas/andreia.jpg) ;
 }
+
+@media screen and (max-width: 768px) {
+    .pessoas{
+        flex-direction: column;           
+    }
+
+    .pessoa {
+        margin-bottom: 2rem;
+    }
+}

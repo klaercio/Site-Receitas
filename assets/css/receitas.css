@@ -45,3 +45,27 @@
     cursor: pointer;
     background: #620404;
 }
+
+@media screen and (max-width : 768px) {
+    .receita {
+        margin-right: 0;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .receitas {
+        padding: 5rem 0 0 1rem;
+    }
+    
+}
+
+@media screen and (min-width : 769px) and (max-width : 992px) {
+    .receita {
+        margin-right: 2.5rem;
+        width: calc(33.33% - 2.5rem);
+    }
+
+    .receitas {
+        padding: 5rem 0 0 5rem;
+    }
+}
